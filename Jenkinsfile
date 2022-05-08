@@ -3,7 +3,7 @@ pipeline{
 		label 'mvnNode'
 	}
 	environment{
-		env='Dev'
+		env='Prod'
 	}
 	stages{
 		stage("Say Hai!"){
