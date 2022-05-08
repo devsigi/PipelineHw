@@ -22,8 +22,8 @@ pipeline{
 	}
 	//paramaters{ string(name:env, defaultValue:'Dev', description: 'Environment to build')} run by default values, we can do Build with Parameter to accept run time inputs
 	stages{
-		/* stage{ agent none(=JenNode) steps{ code to pull the git code}}
-		/* stage{ agent mvnNode steps{ code to build the artifact}}
+		// stage{ agent none(=JenNode) steps{ code to pull the git code}}
+		// stage{ agent mvnNode steps{ code to build the artifact}}
 		stage("Say Hai!"){
 			when {
 				environment name: "env", value: 'Dev'
