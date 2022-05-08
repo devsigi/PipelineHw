@@ -15,7 +15,7 @@ pipeline{
 		   threshold: hudson.model.Result.SUCCESS) //UNSTABLE, FAILURE, NOT_BUILT, ABORTED
 	} */
 	environment{
-		env='Dev'
+		env='Prod'
 	}
 	options{
 		buildDiscarder(logRotator(numToKeepStr: '1'))
